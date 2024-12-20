@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #303030;
+    -fx-alignment: center;
+}
+
+.cell {
+    -fx-alignment: center;
+    -fx-max-height: 50px;
+    -fx-max-width: 50px;
+    -fx-background-color: #494949;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-size: 23px;
+}
+
+.selection-button {
+    -fx-padding: 5 10 5 10;
+    -fx-background-radius: 15;
+    -fx-max-width: 40px;
+    -fx-pref-height: 30px;
+    -fx-max-height: 30px;
+    -fx-font-size: 30px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #494949;
+}
+
+.selection-button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.selection-button:focused {
+    -fx-background-color: #9E4DC5;
+}
+
+.selection-widget {
+    -fx-alignment: center;
+}
+
+.boardview {
+    -fx-padding: 20;
+    -fx-alignment: center;
+    -fx-border-width: 2;
+}
